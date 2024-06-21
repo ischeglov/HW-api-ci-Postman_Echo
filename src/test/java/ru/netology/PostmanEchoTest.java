@@ -21,6 +21,6 @@ public class PostmanEchoTest {
                 // Проверки
                 .then()
                 .statusCode(200)
-                .body("data", equalTo("Task №2: Postman Echo"));
+                .body("data", equalTo("Task №3: Postman Echo"));
     }
 }
